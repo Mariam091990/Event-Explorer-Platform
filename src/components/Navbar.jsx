@@ -1,10 +1,12 @@
-import React from 'react';
-import { NavLink } from 'react-router';
+import React, { use } from 'react';
+import { Link, NavLink } from 'react-router';
 import userimg from '../assets/user.png';
+import { AuthContext } from '../provider/AuthProvider';
 
 
 
 const Navbar = () => {
+  const {user}= use(AuthContext);
 
   const links = <>
 
@@ -37,10 +39,11 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end flex gap-1">
+          <div>{user && user.email}</div>
 
           <img src={userimg} alt="userImg" />
 
-          <button className="btn btn-primary">Login</button>
+          <Link to="/auth/login"><button className="btn btn-primary">Login</button></Link> 
         </div>
       </div>
     </div>
