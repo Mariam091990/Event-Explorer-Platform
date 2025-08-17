@@ -1,0 +1,102 @@
+[
+  {
+    "id": "evt001",
+    "name": "Summer Music Fest 2025",
+    "thumbnail": "https://images.unsplash.com/photo-1507874457470-272b3c8d8ee2?auto=format&fit=crop&w=800&q=80",
+    "category": "Music",
+    "date": "2025-08-20",
+    "location": "Dhaka Amphitheater",
+    "entryFee": 500,
+    "description": "An electrifying open-air music festival featuring top local and international artists."
+  },
+  {
+    "id": "evt002",
+    "name": "Startup Conclave 2025",
+    "thumbnail": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80",
+    "category": "Tech",
+    "date": "2025-09-05",
+    "location": "Bangabandhu Hi-Tech City",
+    "entryFee": 1000,
+    "description": "A networking and pitching event for entrepreneurs, investors, and tech enthusiasts."
+  },
+  {
+    "id": "evt003",
+    "name": "Art & Soul Expo",
+    "thumbnail": "https://images.unsplash.com/photo-1504198453319-5ce911bafcde?auto=format&fit=crop&w=800&q=80",
+    "category": "Art",
+    "date": "2025-08-15",
+    "location": "Chattogram Art Gallery",
+    "entryFee": 300,
+    "description": "An exhibition celebrating modern art by emerging Bangladeshi artists."
+  },
+  {
+    "id": "evt004",
+    "name": "Food Carnival Fiesta",
+    "thumbnail": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80",
+    "category": "Food",
+    "date": "2025-08-25",
+    "location": "Rajshahi Central Park",
+    "entryFee": 200,
+    "description": "Savor flavors from around the world at this fun and food-filled family event."
+  },
+  {
+    "id": "evt005",
+    "name": "Coding Battle Royale",
+    "thumbnail": "https://images.unsplash.com/photo-1581091870622-2c1f43bcdb65?auto=format&fit=crop&w=800&q=80",
+    "category": "Tech",
+    "date": "2025-09-10",
+    "location": "Sylhet Engineering University",
+    "entryFee": 150,
+    "description": "A 24-hour hackathon where teams solve real-world challenges with code."
+  },
+  {
+    "id": "evt006",
+    "name": "Dhaka Book Fair",
+    "thumbnail": "https://images.unsplash.com/photo-1573497019412-c38bd9b6b4e0?auto=format&fit=crop&w=800&q=80",
+    "category": "Literature",
+    "date": "2025-10-01",
+    "location": "Dhaka University Campus",
+    "entryFee": 50,
+    "description": "A literary celebration featuring book signings, workshops, and rare collections."
+  },
+  {
+    "id": "evt007",
+    "name": "Green City Marathon",
+    "thumbnail": "https://images.unsplash.com/photo-1520975918311-8c1ce9487431?auto=format&fit=crop&w=800&q=80",
+    "category": "Sports",
+    "date": "2025-08-18",
+    "location": "Barisal Riverfront",
+    "entryFee": 400,
+    "description": "A marathon promoting eco-awareness and fitness for all age groups."
+  },
+  {
+    "id": "evt008",
+    "name": "Photography Masterclass",
+    "thumbnail": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80",
+    "category": "Workshop",
+    "date": "2025-09-12",
+    "location": "Khulna Art Institute",
+    "entryFee": 800,
+    "description": "A hands-on workshop with award-winning photographers on storytelling through photos."
+  },
+  {
+    "id": "evt009",
+    "name": "Bangla Folk Night",
+    "thumbnail": "https://images.unsplash.com/photo-1517282009859-97b3abf4f314?auto=format&fit=crop&w=800&q=80",
+    "category": "Music",
+    "date": "2025-08-30",
+    "location": "Mymensingh Cultural Center",
+    "entryFee": 250,
+    "description": "An evening of traditional folk songs and dance performances celebrating heritage."
+  },
+  {
+    "id": "evt010",
+    "name": "Local Startup Bootcamp",
+    "thumbnail": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80",
+    "category": "Business",
+    "date": "2025-09-18",
+    "location": "Jessore Startup Hub",
+    "entryFee": 1200,
+    "description": "A 3-day bootcamp for young entrepreneurs to develop and pitch their business ideas."
+  }
+]
