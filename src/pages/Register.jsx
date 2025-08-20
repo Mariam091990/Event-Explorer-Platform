@@ -1,11 +1,17 @@
-import React, { useState } from 'react';
+import React, { use, useState } from 'react';
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
 import { Link } from 'react-router';
+import { AuthContext } from '../provider/AuthProvider';
 
 const Register = () => {
+    // const {createUser} = use(AuthContext);
+    const { createUser, setUser, updateUser } = use(AuthContext);
 
-    const [errorMessage, setErrorMessage] = useState("")
+    // const {createUser, setUser, updateUser} = use(AuthContext);
+    //  const navigate = useNavigate();
+    const [nameError, setNameError] = useState("");
+    const [errorMessage, setErrorMessage] = useState("");
     const [showPassword, setShowPassword] = useState(false);
 
 
@@ -13,18 +19,58 @@ const Register = () => {
 
     const handleRegister = (e) => {
 
-        e.preventDefaul();
+        e.preventDefault();
+        console.log(e.target);
+
         const form = e.target;
         const name = form.name.value;
+
+        if (name.length < 5) {
+            setNameError("Name should be greater than 5 characters");
+            return;
+        } else {
+            setNameError("");
+        }
+
+
+
+        //  if (name.length < 5) {
+        //       <p className='text-red-800'>setNameError ("Name should be more than 5 chracters")</p>
+        //       return;
+        //     }
+        //     else {
+
+        //    setNameError("")
+        //     }
+
         const photo = form.photo.value;
         const email = form.email.value;
         const password = form.password.value;
-        console.log(name, photo, email, password);
-
+        console.log({ name, photo, email, password });
         setErrorMessage("");
 
+        createUser(email, password)
+            .then(result => {
+                const user = result.user;
+                // setUser(user);
+                // console.log(user);
+                updateUser({ displayName: name, photoURL: photo })
+                    .then(() => {
+                        setUser({ ...user, displayName: name, photoURL: photo })
 
-    }
+                    })
+                    .catch((error) => {
+                        console.log(error);
+                        setUser(user);
+
+                    });
+
+
+            })
+            .catch((error) => {
+                 setErrorMessage(error.message)
+            })
+    };
 
 
 
@@ -46,6 +92,7 @@ const Register = () => {
 
                                 <label className="label">Name</label>
                                 <input name='name' type="text" className="input" placeholder="Name" required />
+                                {nameError && <p className="text-red-600">{nameError}</p>}
 
                                 <label className="label ">Photo URL</label>
                                 <input name='photo' type="text" className="input" placeholder="Photo URL" required />
@@ -96,15 +143,17 @@ const Register = () => {
 
 
                                 <button type='submit' className="btn btn-neutral mt-4">Register</button>
+
+
+                                {
+                                    errorMessage && <p className='text-red-500'>{errorMessage}</p>
+
+                                }
+
+                                <p>Already have an account? please <Link className='text-blue-800' to="/auth/login">Login</Link> </p>
+
+
                             </form>
-
-                            {
-                                errorMessage && <p className='text-red-500'>{errorMessage}</p>
-
-                            }
-
-                            <p>Already have an account? please <Link className='text-blue-800' to="/auth/login">Login</Link> </p>
-
 
 
 

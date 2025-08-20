@@ -10,6 +10,7 @@ import AuthLayout from "../layouts/AuthLayout";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
 import ForgetPassword from "../pages/ForgetPassword";
+import PrivateRoute from "../provider/PrivateRoute";
 
 const router = createBrowserRouter(
 
@@ -43,7 +44,7 @@ const router = createBrowserRouter(
         {
             path: '/eventDetails/:id',
             loader: () => fetch('/event.json'),
-            element: <EventDetails></EventDetails>
+            element: <PrivateRoute><EventDetails></EventDetails></PrivateRoute>
         },
 
         {
