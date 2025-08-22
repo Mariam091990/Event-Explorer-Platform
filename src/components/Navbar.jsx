@@ -1,8 +1,9 @@
 import React, { use, useEffect, useState } from 'react';
-import { Link, NavLink } from 'react-router';
+import { Link, NavLink, useNavigate } from 'react-router';
 import userIcon from '../assets/user.png';
 import { AuthContext } from '../provider/AuthProvider';
 import logo from '../assets/logo.png'
+import Swal from 'sweetalert2';
 
 
 
@@ -18,7 +19,8 @@ const Navbar = () => {
   </>
 
   const { user, logOut } = use(AuthContext);
-   const [name , setName] = useState("");
+   const [name , setName] = useState(""); 
+   const navigate =useNavigate();
 
 
   useEffect(() => {
@@ -32,17 +34,36 @@ const Navbar = () => {
 
 
 
-  const handleLogout = () => {
-    // console.log("logout");
-    logOut().then(() => {
-      alert("logout successfully")
+const handleLogout = () => {
+  Swal.fire({
+      title: "Are you sure?",
+      text: "You will be logged out of your account.",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "Yes, logout!"
     })
-      .catch((error) => {
-        console.log(error);
+    
+    .then((result) => {
+      if (result.isConfirmed) {
+        logOut();
+          Swal.fire("Logged out!", "You have been logged out successfully.", "success")
+          .then(() => {
+            navigate("/");
+          });
+      }
+    })
+        .catch((error) => {
+       
+      console.log(error);
+     });
 
-      });
+    }
 
-  }
+
+
+
 
 
 
