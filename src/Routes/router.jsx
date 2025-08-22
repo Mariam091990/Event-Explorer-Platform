@@ -69,15 +69,16 @@ const router = createBrowserRouter(
 
         {
             path: '/qNa',
-            element: <FrequentQues></FrequentQues>
-
+             loader:()=>fetch('/FAQ.json'),
+            element:<PrivateRoute><FrequentQues></FrequentQues></PrivateRoute> 
+            
 
         },
 
         {
 
             path: '/profile',
-            element: <UserProfile></UserProfile>
+            element:  <PrivateRoute><UserProfile></UserProfile></PrivateRoute> 
 
         },
 

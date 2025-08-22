@@ -1,9 +1,18 @@
 import React from 'react';
+import Navbar from '../components/navbar';
+import Footer from '../components/Footer';
 
 const MyBoking = () => {
     return (
         <div>
-            here is my schedule.
+            <header>
+
+                <Navbar></Navbar>
+            </header>
+
+
+
+            <Footer></Footer>
         </div>
     );
 };

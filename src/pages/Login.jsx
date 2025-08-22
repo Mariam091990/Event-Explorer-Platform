@@ -4,21 +4,20 @@ import { AuthContext } from '../provider/AuthProvider';
 
 const Login = () => {
 
+
+    const { signIn, googleSignIn } = use(AuthContext);
+    const location = useLocation();
+    const navigate = useNavigate();
+    console.log(location);
     const [error, setError] = useState("");
-
-const {signIn, googleSignIn}= use(AuthContext);
-const location = useLocation();
-const navigate=useNavigate();
-console.log(location);
+    const [email, setEmail] = useState("");
 
 
-    // console.log(location);
-    //   const [email, setEmail] = useState("") ektu por correct korbo
+    const handleForgetPassword = () => {
 
-    //   const handleForgotPassword = () => {
-    //     // Pass email to ForgotPassword page using state
-    //     navigate("/auth/forgetPass", { state: { email } });
-    //   };
+        navigate("/auth/forgetPass", { state: { email } });
+
+    }
 
 
 
@@ -29,44 +28,44 @@ console.log(location);
         const form = e.target;
         const email = form.email.value;
         const password = form.password.value;
-        console.log({email, password});
+        console.log({ email, password });
 
-        signIn (email, password)
-            .then((result)=>{
+        signIn(email, password)
+            .then((result) => {
 
-                const user= result.user
+                const user = result.user
                 console.log(user);
-                navigate (location.state ? location.sate : "/")
+                navigate(location.state ? location.state : "/")
 
 
             })
-            .catch((error)=>{
-                 const errorCode = error.code;
-                    // const errorMessage = error.message;
-                    // alert(errorCode, errorMessage);
-                    setError(errorCode);
+            .catch((error) => {
+                const errorCode = error.code;
+                // const errorMessage = error.message;
+                // alert(errorCode, errorMessage);
+                setError(errorCode);
 
             })
-        
+
 
     }
 
 
-    const handleGoogleLogIn=()=>{
+    const handleGoogleLogIn = () => {
 
         googleSignIn()
-        .then((result) => {
-        const user = result.user
-        console.log(user);
+            .then((result) => {
+                const user = result.user
+                console.log(user);
 
 
-    })
+            })
 
-    .catch((error) => {
-        const errorCode = error.code;
-        const errorMessage = error.message;
-        alert(errorCode, errorMessage);
-      })
+            .catch((error) => {
+                const errorCode = error.code;
+                const errorMessage = error.message;
+                alert(errorCode, errorMessage);
+            })
 
     }
 
@@ -93,6 +92,7 @@ console.log(location);
                                     name='email'
                                     type="email"
                                     className="input"
+                                    value={email} onChange={(e) => setEmail(e.target.value)}
 
                                     placeholder="Email" />
 
@@ -106,7 +106,7 @@ console.log(location);
                                     placeholder="Password" />
 
 
-                                <div><button className="text-blue-600 underline text-sm link link-hover" >Forgot password?</button></div>
+                                <div><button onClick={handleForgetPassword} className="text-blue-600 underline text-sm link link-hover" >Forgot password?</button></div>
                                 {error && <p className='text-red-600'>{error}</p>}
                                 <button type='submit' className="btn btn-neutral mt-4">Login</button>
 

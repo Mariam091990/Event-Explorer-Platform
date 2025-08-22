@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q1",
+    "question": "How can I buy tickets for an event?",
+    "answer": "You can buy tickets directly from the event details page by clicking on the 'Buy Ticket' button."
+  },
+  {
+    "id": "q2",
+    "question": "Can I get a refund if I cannot attend the event?",
+    "answer": "Refund policies vary for each event. Please check the event's refund policy before purchasing your ticket."
+  },
+  {
+    "id": "q3",
+    "question": "Are children allowed at events?",
+    "answer": "Some events are family-friendly while others are restricted to adults. Please review the event description for age restrictions."
+  },
+  {
+    "id": "q4",
+    "question": "How do I know the location of the event?",
+    "answer": "The event location is displayed on the event details page along with a map link for easy navigation."
+  },
+  {
+    "id": "q5",
+    "question": "Do I need to carry a printed ticket?",
+    "answer": "Most events accept digital tickets. You can show your ticket QR code on your mobile device at entry."
+  },
+  {
+    "id": "q6",
+    "question": "What payment methods are accepted?",
+    "answer": "We accept major credit cards, debit cards, mobile banking, and digital wallets depending on the organizer."
+  },
+  {
+    "id": "q7",
+    "question": "Can I transfer my ticket to someone else?",
+    "answer": "Yes, tickets can usually be transferred. Please check the event's ticket transfer policy in advance."
+  },
+  {
+    "id": "q8",
+    "question": "Will food and drinks be available at the event?",
+    "answer": "Many events have food and beverage stalls available. Details can be found in the event description."
+  },
+  {
+    "id": "q9",
+    "question": "Is parking available at the event venue?",
+    "answer": "Parking availability depends on the venue. Please check the event details for parking arrangements."
+  },
+  {
+    "id": "q10",
+    "question": "How do I contact the event organizer?",
+    "answer": "Organizer contact details are provided on the event page under 'Organizer Info'."
+  }
+]
