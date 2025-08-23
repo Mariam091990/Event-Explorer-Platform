@@ -9,7 +9,7 @@ const Login = () => {
     const { signIn, googleSignIn } = use(AuthContext);
     const location = useLocation();
     const navigate = useNavigate();
-    console.log(location);
+    // console.log(location);
     const [error, setError] = useState("");
     const [email, setEmail] = useState("");
 
@@ -29,7 +29,7 @@ const Login = () => {
         const form = e.target;
         const email = form.email.value;
         const password = form.password.value;
-        console.log({ email, password });
+        // console.log({ email, password });
 
         signIn(email, password)
             .then((result) => {

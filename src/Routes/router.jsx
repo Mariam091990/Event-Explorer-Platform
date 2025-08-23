@@ -12,6 +12,7 @@ import Register from "../pages/Register";
 import ForgetPassword from "../pages/ForgetPassword";
 import PrivateRoute from "../provider/PrivateRoute";
 import Loading from "../pages/Loading";
+import EventsDetailsCard from "../components/EventsDetailsCard";
 
 const router = createBrowserRouter(
 
@@ -49,6 +50,16 @@ const router = createBrowserRouter(
             hydrateFallbackElement:<Loading></Loading>,
             element: <PrivateRoute><EventDetails></EventDetails></PrivateRoute>
         },
+
+         {
+            path: '/event-Details/:id',
+            loader: () => fetch('/event-details.json'),
+            hydrateFallbackElement:<Loading></Loading>,
+            element: <PrivateRoute><EventsDetailsCard></EventsDetailsCard></PrivateRoute>
+        },
+
+
+
 
         {
             path: '/contactUs',

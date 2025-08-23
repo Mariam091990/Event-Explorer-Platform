@@ -1,0 +1,102 @@
+[
+  {
+    "id": "evt001",
+    "name": "Summer Music Fest 2025",
+    "thumbnail": "https://images.unsplash.com/photo-1507874457470-272b3c8d8ee2?auto=format&fit=crop&w=800&q=80",
+    "category": "Music",
+    "date": "2025-08-20",
+    "location": "Dhaka Amphitheater",
+    "entryFee": 500,
+    "description": "Summer Music Fest 2025 is set to be one of the biggest open-air concerts in Bangladesh, featuring an incredible lineup of both local legends and international stars. The event will showcase a variety of genres including pop, rock, EDM, and fusion, ensuring something for everyone. With state-of-the-art sound systems, dazzling lights, and a vibrant festival atmosphere, this night promises non-stop entertainment. Attendees can also enjoy food stalls, merchandise booths, and interactive fan experiences throughout the venue, making it not just a concert but a cultural celebration."
+  },
+  {
+    "id": "evt002",
+    "name": "Startup Conclave 2025",
+    "thumbnail": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80",
+    "category": "Tech",
+    "date": "2025-09-05",
+    "location": "Bangabandhu Hi-Tech City",
+    "entryFee": 1000,
+    "description": "Startup Conclave 2025 is the ultimate gathering for entrepreneurs, investors, and industry leaders looking to collaborate, innovate, and shape the future of business. The event features keynote sessions from successful startup founders, panel discussions with venture capitalists, and networking opportunities that bring together the brightest minds in the startup ecosystem. Participants will also get a chance to pitch their ideas to potential investors and learn from exclusive workshops on fundraising, scaling, and marketing. This conclave is the perfect platform to ignite ideas and transform visions into reality."
+  },
+  {
+    "id": "evt003",
+    "name": "Art & Soul Expo",
+    "thumbnail": "https://i.ibb.co.com/pv0X0Wph/istockphoto-2226136754-1024x1024.jpg",
+    "category": "Art",
+    "date": "2025-08-15",
+    "location": "Chattogram Art Gallery",
+    "entryFee": 300,
+    "description": "Art & Soul Expo celebrates the creativity of emerging Bangladeshi artists and their bold experiments with modern and contemporary art forms. The exhibition will feature paintings, sculptures, installations, and mixed-media art that capture the pulse of our times. Visitors will get to engage with artists through live demonstrations and interactive sessions that reveal the process behind the art. Whether you are an art enthusiast, collector, or someone who simply enjoys creative expression, this expo is designed to inspire and connect people through the power of imagination and culture."
+  },
+  {
+    "id": "evt004",
+    "name": "Food Carnival Fiesta",
+    "thumbnail": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80",
+    "category": "Food",
+    "date": "2025-08-25",
+    "location": "Rajshahi Central Park",
+    "entryFee": 200,
+    "description": "Food Carnival Fiesta is a paradise for foodies, offering a mouthwatering journey through flavors from across the globe. From traditional Bangladeshi delicacies to exotic international cuisines, the carnival brings together food stalls, live cooking stations, and food trucks serving everything from gourmet meals to quick bites. The event also features food competitions, cooking demonstrations by renowned chefs, and fun activities for families. With music, games, and entertainment, the fiesta promises to be a perfect weekend destination for families and friends alike."
+  },
+  {
+    "id": "evt005",
+    "name": "Coding Battle Royale",
+    "thumbnail": "https://i.ibb.co.com/vvVxX3cx/istockphoto-534032426-612x612.jpg",
+    "category": "Tech",
+    "date": "2025-09-10",
+    "location": "Sylhet Engineering University",
+    "entryFee": 150,
+    "description": "Coding Battle Royale is an adrenaline-filled hackathon where young programmers will team up to solve real-world problems through innovation and creativity. This 24-hour coding marathon challenges participants to develop applications, websites, and tools that address pressing issues in sectors such as health, education, and sustainability. Alongside the coding, mentors will be available to guide teams with insights on problem-solving and technology. The event concludes with a grand showcase of projects and awards for the most impactful and innovative solutions."
+  },
+  {
+    "id": "evt006",
+    "name": "Dhaka Book Fair",
+    "thumbnail": "https://i.ibb.co.com/JW94sK94/photo-1663230596855-cbf814695c18.jpg",
+    "category": "Literature",
+    "date": "2025-10-01",
+    "location": "Dhaka University Campus",
+    "entryFee": 50,
+    "description": "The Dhaka Book Fair has long been a beloved gathering place for literature lovers, publishers, and writers. The 2025 edition will continue this tradition with a vast collection of books ranging from fiction and poetry to academic works and rare manuscripts. Readers will get the opportunity to meet their favorite authors during book signings and attend engaging workshops and panel discussions on literature, culture, and publishing. This fair not only promotes reading but also highlights the rich literary heritage of Bangladesh, making it a must-visit cultural event."
+  },
+  {
+    "id": "evt007",
+    "name": "Green City Marathon",
+    "thumbnail": "https://i.ibb.co.com/W4SMHdMP/photo-1698261573792-a91901ab43c2.jpg",
+    "category": "Sports",
+    "date": "2025-08-18",
+    "location": "Barisal Riverfront",
+    "entryFee": 400,
+    "description": "The Green City Marathon is more than just a race; it is a movement that promotes environmental sustainability and healthy living. Runners of all levels, from beginners to professionals, are invited to participate in various race categories including full marathon, half marathon, and fun runs. The scenic riverfront route ensures a refreshing experience for participants, while awareness campaigns and eco-friendly initiatives will be highlighted throughout the event. This marathon is perfect for those who want to combine fitness with a cause that truly matters."
+  },
+  {
+    "id": "evt008",
+    "name": "Photography Masterclass",
+    "thumbnail": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80",
+    "category": "Workshop",
+    "date": "2025-09-12",
+    "location": "Khulna Art Institute",
+    "entryFee": 800,
+    "description": "The Photography Masterclass offers aspiring photographers an exclusive opportunity to learn from some of the best in the industry. This workshop covers everything from mastering camera techniques and lighting to storytelling and editing. Participants will also have the chance to work on live photography projects and receive personalized feedback from award-winning photographers. Whether you are a beginner looking to learn the basics or an advanced photographer aiming to refine your skills, this masterclass is the perfect place to grow and get inspired."
+  },
+  {
+    "id": "evt009",
+    "name": "Bangla Folk Night",
+    "thumbnail": "https://i.ibb.co.com/pv3hx02k/istockphoto-2162849777-612x612.jpg",
+    "category": "Music",
+    "date": "2025-08-30",
+    "location": "Mymensingh Cultural Center",
+    "entryFee": 250,
+    "description": "Bangla Folk Night is a soulful celebration of Bangladesh’s cultural heritage, featuring performances of traditional folk songs, dances, and storytelling. The event brings together renowned folk musicians and local artists to create an evening filled with nostalgia and pride. Audiences can enjoy the raw energy of Baul songs, Lalon geeti, and vibrant folk dances that capture the essence of rural Bangladesh. With colorful costumes, live instruments, and an intimate setting, this night is dedicated to keeping the spirit of folk culture alive for generations to come."
+  },
+  {
+    "id": "evt010",
+    "name": "Local Startup Bootcamp",
+    "thumbnail": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80",
+    "category": "Business",
+    "date": "2025-09-18",
+    "location": "Jessore Startup Hub",
+    "entryFee": 1200,
+    "description": "The Local Startup Bootcamp is a three-day immersive program designed to empower aspiring entrepreneurs with the knowledge and tools needed to launch their ventures. Participants will go through intensive training on business model development, customer validation, and effective pitching. Industry experts and mentors will share valuable insights, while interactive sessions will provide hands-on learning experiences. At the end of the bootcamp, startups will present their business ideas to a panel of investors for potential funding and mentorship opportunities, making it an event that could change the trajectory of their careers."
+  }
+]

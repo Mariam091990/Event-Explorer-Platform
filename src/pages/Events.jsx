@@ -11,8 +11,8 @@ const Events = ({eventData}) => {
 
     return (
         <div>
-<h1 className='text-3xl bold text-center'>Our Best Doctors</h1> 
-             <p className='text-sm text-center mb-10'>Our platform connects you with verified, experienced doctors across various specialties — all at your convenience. Whether it's a routine checkup or urgent consultation, book appointments in minutes and receive quality care you can trust.</p>
+<h1 className='text-3xl bold text-center text-blue-700'>Our Upcoming Events</h1> 
+             <p className='text-sm text-center mb-10'>Our platform connects you with upcoming events.You get to know and experience through <span className=' text-blue-700'>Event Explorer</span> about various fantastic Events</p>
 
 <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4'>
 {

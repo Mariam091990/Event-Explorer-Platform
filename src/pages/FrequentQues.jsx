@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLoaderData } from 'react-router';
 import Answer from '../components/Answer';
-import Navbar from '../components/navbar';
+import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 const FrequentQues = () => {

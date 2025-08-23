@@ -22,7 +22,7 @@
   {
     "id": "evt003",
     "name": "Art & Soul Expo",
-    "thumbnail": "https://images.unsplash.com/photo-1504198453319-5ce911bafcde?auto=format&fit=crop&w=800&q=80",
+    "thumbnail": "https://i.ibb.co.com/pv0X0Wph/istockphoto-2226136754-1024x1024.jpg",
     "category": "Art",
     "date": "2025-08-15",
     "location": "Chattogram Art Gallery",
@@ -42,7 +42,7 @@
   {
     "id": "evt005",
     "name": "Coding Battle Royale",
-    "thumbnail": "https://images.unsplash.com/photo-1581091870622-2c1f43bcdb65?auto=format&fit=crop&w=800&q=80",
+    "thumbnail": "https://i.ibb.co.com/vvVxX3cx/istockphoto-534032426-612x612.jpg",
     "category": "Tech",
     "date": "2025-09-10",
     "location": "Sylhet Engineering University",
@@ -52,7 +52,7 @@
   {
     "id": "evt006",
     "name": "Dhaka Book Fair",
-    "thumbnail": "https://images.unsplash.com/photo-1573497019412-c38bd9b6b4e0?auto=format&fit=crop&w=800&q=80",
+    "thumbnail": "https://i.ibb.co.com/JW94sK94/photo-1663230596855-cbf814695c18.jpg",
     "category": "Literature",
     "date": "2025-10-01",
     "location": "Dhaka University Campus",
@@ -62,7 +62,7 @@
   {
     "id": "evt007",
     "name": "Green City Marathon",
-    "thumbnail": "https://images.unsplash.com/photo-1520975918311-8c1ce9487431?auto=format&fit=crop&w=800&q=80",
+    "thumbnail": "https://i.ibb.co.com/W4SMHdMP/photo-1698261573792-a91901ab43c2.jpg",
     "category": "Sports",
     "date": "2025-08-18",
     "location": "Barisal Riverfront",
@@ -82,7 +82,7 @@
   {
     "id": "evt009",
     "name": "Bangla Folk Night",
-    "thumbnail": "https://images.unsplash.com/photo-1517282009859-97b3abf4f314?auto=format&fit=crop&w=800&q=80",
+    "thumbnail": "https://i.ibb.co.com/pv3hx02k/istockphoto-2162849777-612x612.jpg",
     "category": "Music",
     "date": "2025-08-30",
     "location": "Mymensingh Cultural Center",
