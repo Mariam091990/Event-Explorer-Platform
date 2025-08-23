@@ -1,12 +1,15 @@
 import React from 'react';
 
 const Footer = () => {
+
+
+
     return (
         <div>
             <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10">
   <nav className="grid grid-flow-col gap-4">
-    <a className="link link-hover">About us</a>
-    <a className="link link-hover">Contact</a>
+    <a href='https://www.mapyourshow.com/conference-management-technology?utm_term=venue%20and%20event%20management%20software&utm_campaign=Conference+Management&utm_source=adwords&utm_medium=ppc&hsa_acc=3921396623&hsa_cam=20551396020&hsa_grp=162103095108&hsa_ad=674138757598&hsa_src=g&hsa_tgt=kwd-334387802842&hsa_kw=venue%20and%20event%20management%20software&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=20551396020&gbraid=0AAAAApZA4f_QZIwoIWrMZD5lg-SoK2ApL&gclid=Cj0KCQjwzaXFBhDlARIsAFPv-u-NGgKznBmeSJxbq8tFE1CYAk85hPQ72geXpiCKYePoqD3wcLxrMPYaAm3PEALw_wcB' className="link link-hover">About us</a>
+    <a href='' className="link link-hover">Contact</a>
     <a className="link link-hover">Jobs</a>
     <a className="link link-hover">Press kit</a>
   </nav>
@@ -48,7 +51,7 @@ const Footer = () => {
     </div>
   </nav>
   <aside>
-    <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
+    <p>Copyright © {new Date().getFullYear()} - All right reserved by <span className='text-blue-600'> Event Explorer</span> online Event booking platform.</p>
   </aside>
 </footer>
         </div>

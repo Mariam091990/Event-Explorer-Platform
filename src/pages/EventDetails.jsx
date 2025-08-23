@@ -1,6 +1,6 @@
 import React from 'react';
 import EventsDetailsCard from '../components/EventsDetailsCard';
-import { Form} from 'react-router';
+import { Link} from 'react-router';
 
 
 
@@ -31,8 +31,11 @@ const EventDetails = () => {
                 <input name="email" type="email" className="input" placeholder="Email" />
                 <label className="label">Password</label>
                 <input name="password" type="password" className="input" placeholder="Password" />
-                <button type='submit' className="btn btn-neutral mt-4">Book</button>
-              </form>
+                <div className='flex  gap-20 '>
+                <Link to="/my-bookings" ><button type='submit' className=" btn btn-neutral mt-4 text-center">Book</button></Link>
+                  <Link to="/"><button type='submit' className="  btn btn-neutral mt-4 text-center mx-24">Home</button></Link>           
+            </div> 
+             </form>
             </div>
           </div>
         </div>

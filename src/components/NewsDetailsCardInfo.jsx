@@ -1,34 +1,4 @@
-// import { Link } from "react-router";
 
-// const EventCard = ({ event }) => {
-//   return (
-//     <div className="max-w-md mx-auto bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
-//       <img
-//         src={event.thumbnail}
-//         alt={event.name}
-//         className="w-full h-56 object-cover"
-//       />
-//       <div className="p-4">
-//         <h2 className="text-2xl font-bold text-gray-800">{event.name}</h2>
-//         <p className="text-sm text-gray-500 mt-1">{event.category}</p>
-//         <p className="text-gray-600 mt-2">
-//           📍 {event.location} | 📅 {event.date}
-//         </p>
-//         <p className="text-gray-700 font-semibold mt-2">
-//           Entry Fee: {event.entryFee}৳
-//         </p>
-//         {/* <Link
-//           to={`/event-Details/${event.id}`}
-//           className="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition"
-//         >
-//           View Details
-//         </Link> */}
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default EventCard;
 
 
 

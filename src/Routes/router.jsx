@@ -13,6 +13,7 @@ import ForgetPassword from "../pages/ForgetPassword";
 import PrivateRoute from "../provider/PrivateRoute";
 import Loading from "../pages/Loading";
 import EventsDetailsCard from "../components/EventsDetailsCard";
+import ErrorPage from "../components/ErrorPage";
 
 const router = createBrowserRouter(
 
@@ -71,7 +72,7 @@ const router = createBrowserRouter(
 
         {
             path: '/my-bookings',
-            element: <MyBoking></MyBoking>
+            element:<PrivateRoute><MyBoking></MyBoking></PrivateRoute> 
 
         },
 
@@ -124,7 +125,7 @@ const router = createBrowserRouter(
         {
 
             path: "/*",
-            element: <h2>Error-404</h2>,
+            element:<ErrorPage></ErrorPage>,
 
         }
 
