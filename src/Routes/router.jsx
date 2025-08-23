@@ -11,6 +11,7 @@ import Login from "../pages/Login";
 import Register from "../pages/Register";
 import ForgetPassword from "../pages/ForgetPassword";
 import PrivateRoute from "../provider/PrivateRoute";
+import Loading from "../pages/Loading";
 
 const router = createBrowserRouter(
 
@@ -28,6 +29,7 @@ const router = createBrowserRouter(
                     index: true,
                     path: "/",
                     loader: () => fetch('/event.json'),
+                    hydrateFallbackElement:<Loading></Loading>,
                     element: <Home></Home>
 
                 },
@@ -44,6 +46,7 @@ const router = createBrowserRouter(
         {
             path: '/eventDetails/:id',
             loader: () => fetch('/event.json'),
+            hydrateFallbackElement:<Loading></Loading>,
             element: <PrivateRoute><EventDetails></EventDetails></PrivateRoute>
         },
 
@@ -70,6 +73,7 @@ const router = createBrowserRouter(
         {
             path: '/qNa',
              loader:()=>fetch('/FAQ.json'),
+             hydrateFallbackElement:<Loading></Loading>,
             element:<PrivateRoute><FrequentQues></FrequentQues></PrivateRoute> 
             
 

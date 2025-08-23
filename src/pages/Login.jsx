@@ -1,6 +1,7 @@
 import React, { use, useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router';
 import { AuthContext } from '../provider/AuthProvider';
+import Swal from 'sweetalert2';
 
 const Login = () => {
 
@@ -14,7 +15,7 @@ const Login = () => {
 
 
     const handleForgetPassword = () => {
-
+// loading();
         navigate("/auth/forgetPass", { state: { email } });
 
     }
@@ -32,8 +33,17 @@ const Login = () => {
 
         signIn(email, password)
             .then((result) => {
+                Swal.fire({
+                    position: "top-end",
+                    icon: "success",
+                    title: "Logged in successfully",
+                    showConfirmButton: false,
+                    timer: 1500
+                });
+
 
                 const user = result.user
+
                 console.log(user);
                 navigate(location.state ? location.state : "/")
 
@@ -42,7 +52,7 @@ const Login = () => {
             .catch((error) => {
                 const errorCode = error.code;
                 // const errorMessage = error.message;
-                // alert(errorCode, errorMessage);
+               
                 setError(errorCode);
 
             })
