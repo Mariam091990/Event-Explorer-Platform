@@ -4,10 +4,9 @@
 This project is built using **React + Vite** and demonstrates how to use **React Router** to navigate between pages in a web application.
 
 🔗 Live Demo
-Live Website: [View Live Demo] (https://event-explorer-12036.web.app/)
+**Live Website:** [View Live Demo](https://event-explorer-12036.web.app/)
 
-GitHub Repository: [View Source Code] (https://github.com/Mariam091990/Event-Explorer-Platform)
-
+**GitHub Repository:** [View Source Code](https://github.com/Mariam091990/Event-Explorer-Platform)
 
 
 ---
